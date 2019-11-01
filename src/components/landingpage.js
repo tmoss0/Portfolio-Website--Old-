@@ -13,14 +13,29 @@ class LandingPage extends Component {
               className="avatar-img"
             />
           </Cell>
-		  <div className="banner-text">
-			<h1>Full-Stack Web Development</h1>
-			<hr/>
-			<p>HTML/CSS | Bootstrap | JavaScript | ReactJS</p>
-		  </div>
-		  <div className="social-links">
-			  <a href=""></a>
-		  </div>
+          <div className="banner-text">
+            <h1>Full-Stack Web Development</h1>
+            <hr />
+            <p>HTML/CSS | Bootstrap | JavaScript | ReactJS</p>
+            <div className="social-links">
+              {/* LinkedIn */}
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-linkedin-square" aria-hidden="true" />
+              </a>
+              {/* Github */}
+              <a
+                href="https://github.com/tmoss0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-github-square" aria-hidden="true" />
+              </a>
+            </div>
+          </div>
         </Grid>
       </div>
     );
