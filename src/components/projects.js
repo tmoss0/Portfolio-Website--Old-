@@ -10,67 +10,72 @@ class Projects extends Component {
 	}
 
 	toggleCategories() {
-	if (this.state.activeTab === 0) {
-		return (
-      <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-        <CardTitle
-          style={{
-            color: "black",
-            height: "176px",
-            background:
-              "url(https://cdn.auth0.com/blog/react-js/react.png) center / cover"
-          }}
-        >
-          React Project #1
-        </CardTitle>
-        <CardText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet
-          blandit bibendum. Duis vel lectus vitae est pharetra volutpat. Aliquam
-          fermentum lorem vitae interdum efficitur. Donec eget tempor dolor.
-        </CardText>
-        <CardActions border style={{ textAlign: "center" }}>
-          <Button colored>GitHub</Button>
-          <Button colored>Code</Button>
-          <Button colored>Demo</Button>
-        </CardActions>
-		<CardMenu style={{color: "#fff"}}>
-			<IconButton name="share" />
-		</CardMenu>
-      </Card>
-    );
-	} 
-	else if (this.state.activeTab === 1) {
-		return (
-			<div>
-				<h1>This is Angular</h1>
-			</div>
-		);
-	} 
-	}
-	
-	
+		if (this.state.activeTab === 0) {
+			return (
+        <div className="projects-grid">
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "176px",
+                background:
+                  "url(https://cdn.auth0.com/blog/react-js/react.png) center / cover"
+              }}
+            >
+              React Project #1
+            </CardTitle>
+            <CardText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              laoreet blandit bibendum. Duis vel lectus vitae est pharetra
+              volutpat. Aliquam fermentum lorem vitae interdum efficitur. Donec
+              eget tempor dolor.
+            </CardText>
+            <CardActions border style={{ textAlign: "center" }}>
+              <a
+                href="https://github.com/tmoss0/react-site"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+              <Button colored>Code</Button>
+              <Button colored>Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
+      );
+		}
+		else if (this.state.activeTab === 1) {
+			return (
+				<div>
+					<h1>This is Angular</h1>
+				</div>
+			);
+		}
+	} 	
 
 	render() {
 		return (
-      <div className="category-tabs">
-        <Tabs
-          activeTab={this.state.activeTab}
-          onChange={tabId => this.setState({ activeTab: tabId })}
-          ripple
-        >
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-        </Tabs>
+		<div className="category-tabs">
+			<Tabs
+			activeTab={this.state.activeTab}
+			onChange={tabId => this.setState({ activeTab: tabId })}
+			ripple
+			>
+				<Tab>React</Tab>
+				<Tab>Angular</Tab>
+			</Tabs>
 
-        <section className="projects-grid">
-          <Grid className="projects-grid">
-            <Cell col={12}>
-              <div className="content">{this.toggleCategories()}</div>
-            </Cell>
-          </Grid>
-        </section>
-      </div>
-    );
+			<Grid>
+				<Cell col={12}>
+					<div className="content">{this.toggleCategories()}</div>
+				</Cell>
+			</Grid>
+		</div>
+    	);
 	}
 }
 
