@@ -20,7 +20,7 @@ class LandingPage extends Component {
             <div className="social-links">
               {/* LinkedIn */}
               <a
-                href="https://google.com"
+                href="https://www.linkedin.com/in/tmoss0/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
