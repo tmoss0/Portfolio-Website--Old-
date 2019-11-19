@@ -2,7 +2,7 @@
   "name": "react-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tmoss0.github.io/tmoss0-updated.github.io",
+  "homepage": "https://thmoss.com",
   "dependencies": {
     "@babel/runtime": "^7.6.3",
     "gh-pages": "^2.1.1",
