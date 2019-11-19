@@ -8,7 +8,7 @@ class LandingPage extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="http://styleguide.europeana.eu/images/fpo_avatar.png"
+              src="https://avatars2.githubusercontent.com/u/652193?s=460&v=4"
               alt="avatar"
               className="avatar-img"
             />
@@ -16,7 +16,7 @@ class LandingPage extends Component {
           <div className="banner-text">
             <h1>Full-Stack Web Development</h1>
             <hr />
-            <p>HTML/CSS | Bootstrap | JavaScript | ReactJS</p>
+            <p>HTML | CSS | Bootstrap | JavaScript | ReactJS</p>
             <div className="social-links">
               {/* LinkedIn */}
               <a
