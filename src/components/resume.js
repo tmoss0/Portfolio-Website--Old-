@@ -1,10 +1,23 @@
 import React, { Component } from 'react';
+import { Button } from 'react-mdl';
+import PDF from 'react-pdf-js-infinite';
 
-class Resume extends Component {
+class Resume extends Component {	
+
 	render() {
-		return(
-			<div><h1>Resume Page</h1></div>
-		);
+		return (
+      <div>
+        <div className="resume">
+			<h2 className="page-banner-text">Resume</h2>
+		  <a href="https://github.com/tmoss0/resume/raw/master/Tim%20Moss%20Resume%20(Nov%202019).pdf">
+			<Button raised colored className="normal-text-transform">
+				Download Resume
+			</Button>
+		  </a>
+          <PDF file="./Resume (Nov 2019).pdf" scale={1.25} />
+        </div>
+      </div>
+    );
 	}
 }
 
