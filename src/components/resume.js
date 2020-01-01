@@ -14,7 +14,7 @@ class Resume extends Component {
 				Download Resume
 			</Button>
 		  </a>
-          <PDF file="./Resume (Nov 2019).pdf" scale={1.25} />
+          <PDF className="resume-pdf" file="./Resume (Nov 2019).pdf" scale={1.25} />
         </div>
       </div>
     );

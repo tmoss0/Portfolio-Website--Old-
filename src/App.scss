@@ -1,19 +1,22 @@
+$homePageBlue: #3a6186;
+$homePageRed: #89253e;
+
 .header-color {
-	background: #3a6186;
+	background: $homePageBlue;
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+	background: -webkit-linear-gradient(to right, $homePageRed, $homePageBlue);
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #89253e, #3a6186);
+	background: linear-gradient(to right, $homePageRed, $homePageBlue);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .landing-grid {
-	background: #3a6186;
+	background: $homePageBlue;
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+	background: -webkit-linear-gradient(to right, $homePageRed, $homePageBlue);
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #89253e, #3a6186);
+	background: linear-gradient(to right, $homePageRed, $homePageBlue);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	text-align: center;
 	position: fixed;
@@ -24,6 +27,7 @@
 
 .avatar-img {
 	border-radius: 50%;
+	height: 340px;
 }
 
 .banner-text {
@@ -115,6 +119,14 @@
 	text-Align: left;
 }
 
+.full-width {
+	width: 100%;
+}
+
+.auto {
+	margin: auto;
+}
+
 .list-item-content  {
 	justify-content: center;
 }
@@ -129,6 +141,11 @@
 	font-weight: bold;
 	color: black;
 	text-align: center;
+}
+
+.resume-pdf {
+	border-style: solid;
+	border-width: 1px;
 }
 
 .resume {

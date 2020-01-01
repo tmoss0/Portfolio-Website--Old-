@@ -4,9 +4,9 @@ import { Grid, Cell } from "react-mdl";
 class LandingPage extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div className="full-width auto">
         <Grid className="landing-grid">
-          <Cell col={12}>
+          <Cell col={12} style={{height: "400px"}}>
             <img
               src="https://avatars2.githubusercontent.com/u/652193?s=460&v=4"
               alt="avatar"
@@ -14,9 +14,9 @@ class LandingPage extends Component {
             />
           </Cell>
           <div className="banner-text">
-            <h1>Full-Stack Web Development</h1>
+            <h1>Front-End Web Developer</h1>
             <hr />
-            <p>HTML | CSS | Bootstrap | JavaScript | ReactJS</p>
+            <p>HTML | CSS | SASS | Bootstrap | JavaScript | ReactJS</p>
             <div className="social-links">
               {/* LinkedIn */}
               <a
