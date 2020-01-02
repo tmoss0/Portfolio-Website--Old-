@@ -22,13 +22,16 @@ class Projects extends Component {
                   "url(https://cdn.auth0.com/blog/react-js/react.png) center / cover"
               }}
             >
-              React Project #1
+              Tim Moss Website
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              laoreet blandit bibendum. Duis vel lectus vitae est pharetra
-              volutpat. Aliquam fermentum lorem vitae interdum efficitur. Donec
-              eget tempor dolor.
+              <p>
+                The source code for the website you are currently viewing.
+                Written entirely in ReactJS with SCSS.{" "}
+              </p>
+              <p>
+                Constantly a work in progress, so expect the code to change.
+              </p>
             </CardText>
             <CardActions border style={{ textAlign: "center" }}>
               <a
@@ -38,8 +41,13 @@ class Projects extends Component {
               >
                 <Button colored>GitHub</Button>
               </a>
-              <Button colored>Code</Button>
-              <Button colored>Demo</Button>
+              <a
+                href="https://thmoss.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button colored>Demo</Button>
+              </a>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -48,12 +56,44 @@ class Projects extends Component {
         </div>
       );
 		}
+		/* Python tab (Tab 2) */
 		else if (this.state.activeTab === 1) {
 			return (
-				<div>
-					<h1>This is Angular</h1>
-				</div>
-			);
+        <div className="projects-grid">
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "176px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png) center / cover"
+              }}
+            >
+              NHL API Search
+            </CardTitle>
+            <CardText>
+              <p>
+                A simple one file app I built while learning Python. it uses the
+                open NHL API to search various stats, draft year selections and
+                other NHL information.
+              </p>
+              <p>
+                Will expand into a Flask app and add it's own website in the
+                near future.
+              </p>
+            </CardText>
+            <CardActions border style={{ textAlign: "center" }}>
+              <a
+                href="https://github.com/tmoss0/NHL-API-Parser"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+        </div>
+      );
 		}
 	} 	
 
