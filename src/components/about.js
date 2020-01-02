@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div className="about-body">
-        <h2 className="page-banner-text">About</h2>
+        <h2 className="page-banner-text">About Me</h2>
         <Grid className="about-grid">
           <Cell>
             <p>
