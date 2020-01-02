@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Grid, Cell } from 'react-mdl';
 
 class About extends Component {
   render() {
@@ -9,10 +9,11 @@ class About extends Component {
         <Grid className="about-grid">
           <Cell>
             <p>
-              I have been programming since I could type quickly (the
+              I have been programming since I learned how to type (the
               dialup years!). My first language I programmed in was Visual Basic,
-			  creating interactive forms while in middle school programming class. Little did I know I'd still be 
-			  programming almost fifteen years later.
+			  creating interactive forms while in middle school programming class. I never thought
+			  I'd still be programming almost fifteen years later as a career, but it 
+			  is something I am truly passionate about.
             </p>
             <p>
               I am an experienced Front-End Web Developer with a demonstrated

@@ -68,7 +68,7 @@ class Projects extends Component {
           ripple
         >
           <Tab>React</Tab>
-          <Tab>Angular</Tab>
+          <Tab>Python</Tab>
         </Tabs>
 
         <Grid>

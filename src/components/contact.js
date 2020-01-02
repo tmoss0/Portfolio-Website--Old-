@@ -7,19 +7,7 @@ class Contact extends Component {
       <div className="contact-body">
         <h2 className="page-banner-text">Contact</h2>
         <Grid className="contact-grid">
-          <Cell col={6}>
-            <h2>Tim Moss</h2>
-            <hr />
-            <p style={{ width: "50%", margin: "auto", paddingTop: "2em" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
-              tincidunt id aliquet risus feugiat. Lectus proin nibh nisl
-              condimentum id venenatis a condimentum.
-            </p>
-          </Cell>
-          <Cell col={6}>
-            <h2>Contact Information</h2>
-            <hr />
+          <Cell col={12}>
             <div className="contact-list">
               <List>
                 <ListItem>
@@ -28,7 +16,7 @@ class Contact extends Component {
                     style={{ fontSize: "25px" }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
-                    919-434-7783
+                    <a href="tel:919-434-7783">919-434-7783</a>
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
@@ -37,7 +25,28 @@ class Contact extends Component {
                     style={{ fontSize: "25px" }}
                   >
                     <i className="fa fa-envelope-square" aria-hidden="true" />
-                    tim@thmoss.com
+                    <a
+                      href="mailto:tim@thmoss.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      tim@thmoss.com
+                    </a>
+                  </ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent
+                    className="list-item-content"
+                    style={{ fontSize: "25px" }}
+                  >
+                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    <a
+                      href="https://www.linkedin.com/in/tmoss0/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      linkedin.com/in/tmoss0
+                    </a>
                   </ListItemContent>
                 </ListItem>
               </List>

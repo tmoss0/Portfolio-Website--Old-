@@ -127,6 +127,10 @@ $homePageRed: #89253e;
 	margin: auto;
 }
 
+.mdl-layout__content {
+	padding-bottom: 100px;
+}
+
 .list-item-content  {
 	justify-content: center;
 }
@@ -146,6 +150,7 @@ $homePageRed: #89253e;
 .resume-pdf {
 	border-style: solid;
 	border-width: 1px;
+	margin-top: 25px;
 }
 
 .resume {
