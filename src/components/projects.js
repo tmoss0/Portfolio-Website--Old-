@@ -117,12 +117,14 @@ class Projects extends Component {
           <CardTitle
             style={{
               color: "black",
-              height: "176px"
+			  height: "176px",
+			  background: "url(https://i.udemycdn.com/course/750x422/1713660_a8cb_4.jpg) center / cover"
             }}
           >
             Work Projects
           </CardTitle>
           <CardText>
+			<p>Listed below are a few of the websites I have contributed to while working at Theory Communication & Design.</p>
             <p>
               <a href="https://vortechsuperchargers.com/">
                 Vortech Superchargers
