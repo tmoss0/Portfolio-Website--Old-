@@ -9,35 +9,37 @@ class About extends Component {
         <Grid className="about-grid">
           <Cell>
             <p>
-              I have been programming since I learned how to type (the
-              dialup years!). My first language I programmed in was Visual Basic,
-			  creating interactive forms while in middle school programming class. I never thought
-			  I'd still be programming almost fifteen years later as a career, but it 
-			  is something I am truly passionate about.
+              My adoration for programming started at a young age during the
+              loitering, dreaded dial-up years. The first language I programmed in was
+              Visual Basic, where I learned to creating interactive forms while in 
+			  middle school programming class. I fell in love with the newfound 
+			  capability to manipulate the contents on the screen. Never in my wildest
+			  dreams did I think I'd still be programming almost fifteen years later.
             </p>
             <p>
-              I am an experienced Front-End Web Developer with a demonstrated
+              I am an experienced Front-End Web Developer in Charlotte, NC with a demonstrated
               history of nearly three years of working in the marketing and
-              advertising industry. I have completed websites for clients in
-              various industries, from bakeries to detail shops and everything in
-              between. 
+              advertising industry. I have built dynamics websites for clients in
+              various industries, from boutique bakeries to high-end automotive
+			  detail shops and everything in between.
             </p>
             <p>
-              Utilizing HTML, CSS, JavaScript and PHP, I create mobile-friendly websites 
-			  for national clients and local entrepenuers. In addition to my programming
-			  experience, I also have experience working with numerous CMS platforms 
-			  including WordPress, Shopify and Adobe Experience Manager.
+              Utilizing HTML, CSS, JavaScript and PHP, I am constantly creating
+			  mobile-friendly websites for national clients and local entrepenuers. In addition
+              to my programming experience, I also have experience working with
+              numerous CMS platforms including WordPress, Shopify and Adobe
+              Experience Manager.
             </p>
             <p>
-              Collaborating with clients on their websites is something I really enjoy
-			  because I get to truly understand what they want and I can advise them on 
-			  best web practices or web designs. It really helps create a relationship and be able
-			  to accurately create the website.
+              One of my favorite aspects of programming is when I collaborate with my clients
+			  in order to bring their dreams to life. Nothing is more satisfying than meeting
+			  with a client in person and creating a solution for their web-based needs.
             </p>
             <p>
-              While not on a computer, I am an avid Carolina Hurricanes and Chelsea FC fan. I also enjoy
-			  visiting the various local breweries around Charlotte. I also really enjoy playing the latest 
-			  video games, including virtual reality games!
+              While not on a computer, I am an avid Carolina Hurricanes (#letsgocanes) and
+              Chelsea FC fan. I also enjoy visiting the various local breweries
+              around Charlotte. I'm primarily a PC gamer (although I do enjoy the occasional Mario Kart) 
+			  and have especially recently grown fond of virtual reality games.
             </p>
           </Cell>
         </Grid>
