@@ -7,7 +7,7 @@ class About extends Component {
       <div className="about-body">
         <h2 className="page-banner-text">About Me</h2>
         <Grid className="about-grid">
-          <Cell>
+          <Cell>	
             <p>
               My adoration for programming started at a young age during the
               loitering, dreaded dial-up years. The first language I programmed in was

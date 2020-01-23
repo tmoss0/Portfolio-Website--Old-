@@ -18,18 +18,21 @@ class LandingPage extends Component {
             <h1>Front-End Web Developer</h1>
             <p>HTML | CSS | SASS | Bootstrap | JavaScript | ReactJS</p>
             <hr />
-            <p style={{ width: "60%", margin: "auto" }}>
+            <p>
               Hello there, I'm Tim!
             </p>
-            <p style={{ width: "60%", margin: "auto" }}>
+            <p>
+              Quick note: I'm constantly improving this website! Thanks for understanding!
+            </p>
+            <p>
               Programming and technology in general are topics I've been
               fascinated by most of my life. I am a front-end web developer who
               has been programming for five years, enhancing my skills primarily
               in the advertising and marketing fields.
             </p>
-            <p style={{ width: "60%", margin: "auto" }}>
+            <p>
               I am always on the look out for new opportunities. If I sound like
-              a fit for your team, please reach out!
+              a fit for your team, please reach out via the links below!
             </p>
             <div className="social-links">
               {/* LinkedIn */}
