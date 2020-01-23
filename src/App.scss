@@ -26,7 +26,6 @@ $gradientLightBrown: #B79891;
 }
 
 
-
 /*** Mobile devices ***/
 @media all and (max-width: 700px){
 	.banner-text {
@@ -55,6 +54,7 @@ $gradientLightBrown: #B79891;
 	}
 }
 
+
 /*** Multiple page uses ***/
 .auto {
 	margin: auto;
@@ -75,7 +75,6 @@ $gradientLightBrown: #B79891;
 .normal-text-transform {
 	text-transform: none !important;
 }
-
 
 
 /*** Home page ***/
@@ -110,8 +109,6 @@ $gradientLightBrown: #B79891;
 	font-size: 20px;
 	padding: 1em;
 	text-align: center;
-	width: 60%;
-	margin: auto;
 }
 
 .page-banner-text {
@@ -135,7 +132,6 @@ $gradientLightBrown: #B79891;
 }
 
 
-
 /*** About Page ***/
 .about-body {
 	text-align: center;
@@ -147,20 +143,16 @@ $gradientLightBrown: #B79891;
 }
 
 .about-grid {
-	text-align: center;
 	justify-content: center;
-	height: 550px;
-	background: white;
 	color: black;
-	margin-bottom: 20px;
+	margin-bottom: 2em;
 }
 
 .about-grid p {
 	margin: auto;
-	padding-Top: 2em;
-	text-Align: left;
+	padding-bottom: 2em;
+	text-align: left;
 }
-
 
 
 /*** Resume Page ***/

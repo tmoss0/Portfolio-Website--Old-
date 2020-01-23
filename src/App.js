@@ -2,7 +2,6 @@ import React from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-import ReactGA from 'react-ga';
 import './App.scss';
 
 function App() {
@@ -34,11 +33,6 @@ function App() {
       </Layout>
     </div>
   );
-}
-
-function initializeReactGA() {
-	ReactGA.initialize('UA-156654871-1');
-	ReactGA.pageview('/homepage');
 }
 
 export default App;
