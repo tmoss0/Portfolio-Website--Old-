@@ -8,7 +8,7 @@ class Resume extends Component {
 		return (
       <div className="resume">
         <h2 className="page-banner-text">Resume</h2>
-        <a href="https://github.com/tmoss0/resume/raw/master/Tim%20Moss%20Resume%20(Nov%202019).pdf">
+        <a href="https://github.com/tmoss0/tmoss0-updated.github.io/raw/master/public/Tim%20Moss%20Resume%20(Apr%202020).pdf">
           <Button raised colored className="normal-text-transform">
             Download Resume
           </Button>
@@ -16,7 +16,7 @@ class Resume extends Component {
         <div className="PDF">
           <PDF
             className="resume-pdf"
-            file="./Resume (Nov 2019).pdf"
+            file="./Tim Moss Resume (Apr 2020).pdf"
             scale={1.15}
           />
         </div>
