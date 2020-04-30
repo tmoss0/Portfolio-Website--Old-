@@ -54,17 +54,7 @@ class About extends Component {
               especially recently grown fond of virtual reality games.
             </p>
           </Cell>
-        </Grid>
-        <Grid className="about-grid">
-          <Cell>
-            <SpotifyPlayer
-              uri="spotify:playlist:5qI2hVP22VriIJnWbX2OI5"
-              size={size}
-              view={view}
-              theme={theme}
-            />
-          </Cell>
-        </Grid>
+        </Grid>        
       </div>
     );
   }
