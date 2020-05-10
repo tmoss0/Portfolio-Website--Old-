@@ -2,10 +2,9 @@
   "name": "react-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thmoss.com",
+  "homepage": "https://github.com/tmoss0/tmoss0-updated.github.io",
   "dependencies": {
     "@babel/runtime": "^7.6.3",
-    "gh-pages": "^2.1.1",
     "node-sass": "^4.13.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -39,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
