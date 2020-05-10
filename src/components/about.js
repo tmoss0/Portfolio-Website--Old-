@@ -41,8 +41,7 @@ class About extends Component {
             <p>
               I am also consistently learning new technologies and updating my
               skillset with the newest web technologies, like React and VueJS. 
-			  If you have any questions, please reach out to me at
-              <a href="mailto:tim@thmoss.com">tim@thmoss.com</a>
+			  If you have any questions, please reach out to me at <a href="mailto:tim@thmoss.com">tim@thmoss.com</a>
             </p>
           </Cell>
         </Grid>
