@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import SpotifyPlayer from 'react-spotify-player';
 
 const size = {
 	width: '100%',

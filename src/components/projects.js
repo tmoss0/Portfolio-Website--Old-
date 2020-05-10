@@ -70,29 +70,7 @@ class Projects extends Component {
 			<Card
 			shadow={5}
 			style={{ minWidth: "450", margin: "auto" }}
-			>
-			<CardTitle
-				style={{
-				color: "black",
-				height: "176px",
-				background:
-					"url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png) center / cover"
-				}}
-			>
-				NHL API Search
-			</CardTitle>
-			<CardText>
-				<p>
-				A simple one file app I built while learning
-				Python. it uses the open NHL API to search
-				various stats, draft year selections and
-				other NHL information.
-				</p>
-				<p>
-				Will expand into a Flask app and add it's own
-				website in the near future.
-				</p>
-			</CardText>
+			>			
 			<CardActions
 				border
 				style={{ textAlign: "center" }}
