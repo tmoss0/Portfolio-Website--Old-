@@ -2,7 +2,7 @@
   "name": "react-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/tmoss0/tmoss0-updated.github.io",
+  "homepage": "https://tmoss0.github.io/tmoss0-updated.github.io/",
   "dependencies": {
     "@babel/runtime": "^7.6.3",
     "node-sass": "^4.13.1",
