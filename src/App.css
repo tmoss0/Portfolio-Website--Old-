@@ -1,0 +1,167 @@
+/* Variables */
+.header-color {
+  background: #B79891;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#94716B), to(#B79891));
+  background: linear-gradient(to right, #94716B, #B79891);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #B79891;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#94716B), to(#B79891));
+  background: linear-gradient(to right, #94716B, #B79891);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+/*** Multiple page uses ***/
+.auto {
+  margin: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.list-item-content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mdl-grid {
+  padding-bottom: 50px !important;
+}
+
+.grid {
+  text-align: center;
+  margin: auto;
+  width: 45%;
+}
+
+.normal-text-transform {
+  text-transform: none !important;
+}
+
+/*** Home page ***/
+.avatar-img {
+  border-radius: 50%;
+  height: 340px;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+}
+
+.page-banner-text {
+  font-size: 54px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+/*** About Page ***/
+.about-page {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-grid {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  margin-bottom: 2em;
+}
+
+.about-grid p {
+  margin: auto;
+  padding-bottom: 2em;
+  text-align: left;
+}
+
+/*** Resume Page ***/
+.resume-page {
+  text-align: center;
+}
+
+.resume-list {
+  text-align: left;
+}
+
+/*** Contact Page ***/
+.contact-list i {
+  font-size: 36px;
+  padding-right: 5rem;
+}
+
+/*** Mobile devices ***/
+@media screen and (max-width: 768px) {
+  .banner-text {
+    width: 100%;
+  }
+  .contact-list i {
+    padding-right: 2rem;
+  }
+  .grid {
+    width: 80%;
+  }
+  .social-links {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=App.css.map */

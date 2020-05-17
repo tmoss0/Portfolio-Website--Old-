@@ -12,10 +12,10 @@ class About extends Component {
 	
   render() {
     return (
-      <div className="about-body">
+      <div className="about-page">
         <h2 className="page-banner-text">About Me</h2>
-        <Grid className="about-grid">
-          <Cell>
+        <Grid className="grid about-grid">
+          <Cell col={12}>
             <p>
               I am an experienced Front-End Web Developer in Charlotte, NC with
               a demonstrated history of three years of working in the marketing
@@ -40,8 +40,9 @@ class About extends Component {
             </p>
             <p>
               I am also consistently learning new technologies and updating my
-              skillset with the newest web technologies, like React and VueJS. 
-			  If you have any questions, please reach out to me at <a href="mailto:tim@thmoss.com">tim@thmoss.com</a>
+              skillset with the newest web technologies, like React and VueJS.
+              If you have any questions, please reach out to me at{' '}
+              <a href="mailto:tim@thmoss.com">tim@thmoss.com</a>
             </p>
           </Cell>
         </Grid>

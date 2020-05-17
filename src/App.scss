@@ -2,6 +2,7 @@
 $gradientDarkBrown: #94716B;
 $gradientLightBrown: #B79891;
 
+
 .header-color {
 	background: $gradientLightBrown;
 	/* fallback for old browsers */
@@ -25,36 +26,6 @@ $gradientLightBrown: #B79891;
 	height: auto;
 }
 
-
-/*** Mobile devices ***/
-@media all and (max-width: 700px){
-	.banner-text {
-		width: 90% !important;
-	}
-
-	.contact-grid {
-		width: 90% !important;
-	}
-
-	.contact-list i {
-		padding-right: 2rem !important;
-	}
-
-	.resume-pdf {
-		width: auto;
-	}
-
-	.resume {
-		overflow: auto;
-		white-space: nowrap
-	}
-
-	.social-links {
-		width: 75%;
-	}
-}
-
-
 /*** Multiple page uses ***/
 .auto {
 	margin: auto;
@@ -70,6 +41,12 @@ $gradientLightBrown: #B79891;
 
 .mdl-grid {
 	padding-bottom: 50px !important;
+}
+
+.grid {
+	text-align: center;
+	margin: auto;
+	width: 45%;
 }
 
 .normal-text-transform {
@@ -133,7 +110,7 @@ $gradientLightBrown: #B79891;
 
 
 /*** About Page ***/
-.about-body {
+.about-page {
 	text-align: center;
 	justify-content: center;
 	width: 100%;
@@ -156,21 +133,35 @@ $gradientLightBrown: #B79891;
 
 
 /*** Resume Page ***/
-.resume-pdf {
-	border-style: solid;
-	border-width: 1px;
-	margin-top: 25px;
+.resume-page {
+	text-align: center;	
 }
 
-.resume {
-	text-align: center;
-	padding-bottom: 50px;
+.resume-list {
+	text-align: left;
 }
-
-
 
 /*** Contact Page ***/ 
 .contact-list i {
 	font-size: 36px;
 	padding-right: 5rem;
+}
+
+/*** Mobile devices ***/
+@media screen and (max-width: 768px) {
+	.banner-text {
+		width: 100%;
+	}
+
+	.contact-list i {
+		padding-right: 2rem;
+	}
+
+	.grid {
+		width: 80%;
+	}
+
+	.social-links {
+		width: 90%;
+	}
 }

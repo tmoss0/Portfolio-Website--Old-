@@ -3,7 +3,7 @@ import ReactGA from 'react-ga';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-import './App.scss';
+import './App.css';
 
 function App() {
 
