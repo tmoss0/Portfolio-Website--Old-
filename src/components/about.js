@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-const size = {
-	width: '100%',
-	height: 500,
-};
-const view = 'list'; // or 'coverart'
-const theme = 'black'; // or 'white'
-
 class About extends Component {
 	
   render() {
