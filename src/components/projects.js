@@ -11,55 +11,100 @@ class Projects extends Component {
 
 	toggleCategories() {
 		if (this.state.activeTab === 0) {
-			return (
-        <div className="projects-grid">
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle
-              style={{
-                color: 'black',
-                height: '176px',
-                background:
-                  'url(https://cdn.auth0.com/blog/react-js/react.png) center / cover',
-              }}
-            >
-              Tim Moss Website
-            </CardTitle>
-            <CardText>
-              <p>
-                The source code for the website you are currently viewing.
-                Written entirely in ReactJS with SCSS.{' '}
-              </p>
-              <p>
-                Constantly a work in progress, so expect the code to change.
-              </p>
-            </CardText>
-            <CardActions border style={{ textAlign: 'center' }}>
-              <a
-                href="https://github.com/tmoss0/tmoss0-updated.github.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button className="pink">GitHub</Button>
-              </a>
-              <a
-                href="https://thmoss.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button className="pink">Demo</Button>
-              </a>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-        </div>
-      );
-		} else if (this.state.activeTab === 1) {
-		/* Work projects tab (Tab 2) */
+			/* React projects tab (Tab 1) */
 			return (
 				<div className="projects-grid">
-				<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+					<Card shadow={1} style={{ minWidth: '450', margin: 'auto' }}>
+						<CardTitle
+						style={{
+							color: 'black',
+							height: '176px',
+							background:
+							'url(https://cdn.auth0.com/blog/react-js/react.png) center / cover',
+						}}
+						>
+						Tim Moss Website
+						</CardTitle>
+						<CardText>
+						<p>
+							The source code for the website you are currently viewing.
+							Written in ReactJS with SCSS.
+						</p>
+						<p>
+							A work in progress, so expect the code to change.
+						</p>
+						</CardText>
+						<CardActions border style={{ textAlign: 'center' }}>
+						<a
+							href="https://github.com/tmoss0/tmoss0-updated.github.io"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Button className="pink">GitHub</Button>
+						</a>
+						<a
+							href="https://thmoss.com"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Button className="pink">Demo</Button>
+						</a>
+						</CardActions>
+						<CardMenu style={{ color: '#fff' }}>
+						<IconButton name="share" />
+						</CardMenu>
+					</Card>
+				</div>
+			);
+		} 
+		else if (this.state.activeTab === 1) {
+			/* JS projects tab (Tab 2) */
+			return (
+				<div className="projects-grid">
+					<Card shadow={1} style={{ minWidth: '450', margin: 'auto' }}>
+						<CardTitle
+						style={{
+							color: 'black',
+							height: '176px',
+							background:
+							'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) bottom right / cover',
+						}}
+						>
+						GitHub Finder
+						</CardTitle>
+						<CardText>
+						<p>
+							Wrote a Vanilla JavaScript project to pull user data from
+							GitHub, displaying profile information and recent projects
+						</p>						
+						</CardText>
+						<CardActions border style={{ textAlign: 'center' }}>
+						<a
+							href="https://github.com/tmoss0/Github-Finder"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Button className="pink">GitHub</Button>
+						</a>
+						<a
+							href="https://tmoss-github-finder.herokuapp.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Button className="pink">Demo</Button>
+						</a>
+						</CardActions>
+						<CardMenu style={{ color: '#fff' }}>
+						</CardMenu>
+					</Card>			
+				</div>
+      		);
+		} 
+		else if (this.state.activeTab === 2) {
+		/* Work projects tab (Tab 3) */
+			return (
+				<div className="projects-grid">
+				<Card shadow={1} style={{ minWidth: '450', margin: 'auto' }}>
 					<CardTitle
 					style={{
 						color: 'black',
@@ -107,6 +152,7 @@ class Projects extends Component {
           ripple
         >
           <Tab>React</Tab>
+		  <Tab>JavaScript</Tab>
 		  <Tab>Work Projects</Tab>
         </Tabs>
 
