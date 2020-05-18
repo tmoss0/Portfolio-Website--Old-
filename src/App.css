@@ -17,7 +17,6 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   left: 0;
-  width: 100%;
   height: auto;
 }
 
@@ -40,10 +39,18 @@
   padding-bottom: 50px !important;
 }
 
+.pink {
+  color: #ff4081 !important;
+}
+
 .grid {
   text-align: center;
   margin: auto;
   width: 45%;
+}
+
+.mdl-layout__header-row .mdl-navigation__link.selected {
+  color: black;
 }
 
 .normal-text-transform {

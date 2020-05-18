@@ -1,6 +1,7 @@
 /* Variables */
 $gradientDarkBrown: #94716B;
 $gradientLightBrown: #B79891;
+$pinkColor: rgb(255, 64, 129);
 
 
 .header-color {
@@ -22,7 +23,6 @@ $gradientLightBrown: #B79891;
 
 	text-align: center;
 	left: 0;
-	width: 100%;
 	height: auto;
 }
 
@@ -43,10 +43,18 @@ $gradientLightBrown: #B79891;
 	padding-bottom: 50px !important;
 }
 
+.pink {
+	color: $pinkColor !important;
+}
+
 .grid {
 	text-align: center;
 	margin: auto;
 	width: 45%;
+}
+
+.mdl-layout__header-row .mdl-navigation__link.selected {
+	color: black;
 }
 
 .normal-text-transform {
