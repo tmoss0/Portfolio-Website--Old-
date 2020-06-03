@@ -13,7 +13,7 @@ class Projects extends Component {
 		if (this.state.activeTab === 0) {
 			/* React projects tab (Tab 1) */
 			return (
-				<div className="projects-grid">
+				<div className="projects-grid">					
 					<Card shadow={1} style={{ minWidth: '450', margin: 'auto' }}>
 						<CardTitle
 						style={{
@@ -26,29 +26,29 @@ class Projects extends Component {
 						Tim Moss Website
 						</CardTitle>
 						<CardText>
-						<p>
-							The source code for the website you are currently viewing.
-							Written in ReactJS with SCSS.
-						</p>
-						<p>
-							A work in progress, so expect the code to change.
-						</p>
+							<p>
+								The source code for the website you are currently viewing.
+								Written in ReactJS with SCSS.
+							</p>
+							<p>
+								A work in progress, so expect the code to change.
+							</p>
 						</CardText>
 						<CardActions border style={{ textAlign: 'center' }}>
-						<a
-							href="https://github.com/tmoss0/tmoss0-updated.github.io"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<Button className="pink">GitHub</Button>
-						</a>
-						<a
-							href="https://thmoss.com"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<Button className="pink">Demo</Button>
-						</a>
+							<a
+								href="https://github.com/tmoss0/tmoss0-updated.github.io"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<Button className="pink">GitHub</Button>
+							</a>
+							<a
+								href="https://thmoss.com"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<Button className="pink">Demo</Button>
+							</a>
 						</CardActions>
 						<CardMenu style={{ color: '#fff' }}>
 						<IconButton name="share" />
@@ -60,44 +60,80 @@ class Projects extends Component {
 		else if (this.state.activeTab === 1) {
 			/* JS projects tab (Tab 2) */
 			return (
-				<div className="projects-grid">
+				<Grid className="projects-grid">
 					<Card shadow={1} style={{ minWidth: '450', margin: 'auto' }}>
 						<CardTitle
-						style={{
-							color: 'black',
-							height: '176px',
-							background:
-							'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) bottom right / cover',
-						}}
+							style={{
+								color: 'black',
+								height: '176px',
+								background:
+									'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) bottom right / cover',
+							}}
 						>
-						GitHub Finder
+							GitHub Finder
 						</CardTitle>
 						<CardText>
-						<p>
-							Wrote a Vanilla JavaScript project to pull user data from
-							GitHub, displaying profile information and recent projects
-						</p>						
+							<p>
+								JavaScript project to pull user data from
+								GitHub, displaying profile information and recent projects
+							</p>
 						</CardText>
 						<CardActions border style={{ textAlign: 'center' }}>
-						<a
-							href="https://github.com/tmoss0/Github-Finder"
-							target="_blank"
-							rel="noopener noreferrer"
+							<a
+								href="https://github.com/tmoss0/Github-Finder"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<Button className="pink">GitHub</Button>
+							</a>
+							<a
+								href="https://tmoss-github-finder.herokuapp.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<Button className="pink">Demo</Button>
+							</a>
+						</CardActions>
+						<CardMenu style={{ color: '#fff' }}>
+						</CardMenu>
+					</Card>
+					<Card shadow={1} style={{ minWidth: '450', margin: 'auto' }}>
+						<CardTitle
+							style={{
+								color: 'black',
+								height: '176px',
+								background:
+									'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) bottom right / cover',
+							}}
 						>
-							<Button className="pink">GitHub</Button>
-						</a>
-						<a
-							href="https://tmoss-github-finder.herokuapp.com/"
-							target="_blank"
-							rel="noopener noreferrer"
+							Weather App
+						</CardTitle>
+						<CardText>
+							<p>
+								JavaScript project to pull get weather based on location from
+								user input or get weather based on location of browser
+							</p>
+						</CardText>
+						<CardActions border style={{ textAlign: 'center' }}>
+							<a
+								href="https://github.com/tmoss0/Weather-Web-App"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<Button className="pink">GitHub</Button>
+							</a>
+							<a
+								href="https://get-weather-js.herokuapp.com/"
+								target="_blank"
+								rel="noopener noreferrer"
 						>
 							<Button className="pink">Demo</Button>
 						</a>
 						</CardActions>
 						<CardMenu style={{ color: '#fff' }}>
 						</CardMenu>
-					</Card>			
-				</div>
+					</Card>	
+				</Grid>
       		);
 		} 
 		else if (this.state.activeTab === 2) {
