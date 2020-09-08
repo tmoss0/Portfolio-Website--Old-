@@ -4,36 +4,35 @@ import { Grid, Cell } from 'react-mdl';
 class LandingPage extends Component {
   render() {
     return (
-      <Grid className="landing-grid">
-        <Cell col={12}>
-          <img
-            src="https://avatars2.githubusercontent.com/u/652193?s=460&v=4"
-            alt="avatar"
-            className="avatar-img"
-          />
-        </Cell>
+      <Grid className="landing-grid">        
         <Cell col={12}>
           <div className="banner-text">
             <h1>Tim Moss</h1>
             <h1>Front-End Web Developer</h1>
             <p>HTML | CSS | SASS | Bootstrap | JavaScript | ReactJS</p>
             <hr />
-            <p>
-              Hello there, I'm Tim!
-            </p>
-            <p>
-              Quick note: I'm constantly improving this website! Thanks for understanding!
-            </p>
-            <p>
-              Programming and technology in general are topics I've been
-              fascinated by most of my life. I am a front-end web developer who
-              has been programming for five years, enhancing my skills primarily
-              in the advertising and marketing fields.
-            </p>
-            <p>
-              I am always on the look out for new opportunities. If I sound like
-              a fit for your team, please reach out via the links below!
-            </p>
+            <div className="banner-text-bio">
+                <p>
+                Hello there, I'm Tim!
+                </p>
+                <p>
+                Quick note: I'm constantly improving this website! Thanks for understanding!
+                </p>
+                <p>
+                Programming and technology as a whole are topics I've been
+                fascinated by my entire life. I originally went to school to get in game development.
+                However, I  found web development something I really enjoyed after taking some classes, 
+                gettg on the job experience and personal projects I've worked on.                
+                </p>
+                <p>               
+                So now I am a front-end web developer who has five years of web development experience. I've honed my skills primarily
+                in the advertising and marketing fields. I enjoy helping clients grow their brand and reaching new customers 
+                they would not have reached without my help.
+                </p>
+                <p>
+                Thanks for reading! If you'd like to get in touch with me, please see one of the links below!
+                </p>
+            </div>
             <div className="social-links">
               {/* LinkedIn */}
               <a

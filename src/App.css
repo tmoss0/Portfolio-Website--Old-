@@ -91,6 +91,10 @@
   text-align: center;
 }
 
+.banner-text-bio p {
+  text-align: left;
+}
+
 .page-banner-text {
   font-size: 54px;
   font-weight: bold;
@@ -139,6 +143,12 @@
   margin: auto;
   padding-bottom: 2em;
   text-align: left;
+}
+
+/*** Projects Page ***/
+.projects-grid {
+  width: 80%;
+  margin: auto;
 }
 
 /*** Resume Page ***/
