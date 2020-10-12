@@ -14,7 +14,7 @@ class About extends Component {
               a demonstrated history of three years working in the marketing
               and advertising industry. I have built dynamic websites for
               clients in numerous industries, including boutique bakeries,
-              high-end automotive detail shops and automtive parts shops.
+              high-end automotive detail shops and automotive parts shops.
             </p>
             <p>
               Utilizing HTML, CSS, JavaScript and PHP, I love creating

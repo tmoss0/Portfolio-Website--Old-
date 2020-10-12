@@ -22,7 +22,7 @@ class LandingPage extends Component {
                 Programming and technology as a whole are topics I've been
                 fascinated by my entire life. I originally went to school to get in game development.
                 However, I  found web development something I really enjoyed after taking some classes, 
-                gettg on the job experience and personal projects I've worked on.                
+                getting on the job experience and personal projects I've worked on.                
                 </p>
                 <p>               
                 So now I am a front-end web developer who has five years of web development experience. I've honed my skills primarily
