@@ -9,7 +9,7 @@ class LandingPage extends Component {
           <div className="banner-text">
             <h1>Tim Moss</h1>
             <h1>Front-End Web Developer</h1>
-            <p>HTML | CSS | SASS | Bootstrap | JavaScript | ReactJS</p>
+            <p><b>HTML | CSS | SASS | Bootstrap | JavaScript | ReactJS</b></p>
             <hr />
             <div className="banner-text-bio">
                 <p>

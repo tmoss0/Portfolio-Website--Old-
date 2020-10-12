@@ -57,6 +57,10 @@
   text-transform: none !important;
 }
 
+.nav-item {
+  font-weight: bold !important;
+}
+
 /*** Home page ***/
 .avatar-img {
   border-radius: 50%;

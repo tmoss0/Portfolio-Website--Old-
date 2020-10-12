@@ -19,22 +19,17 @@ class Resume extends Component {
             <h5>May 2017 - Present (Charlotte, NC)</h5>
             <ul className="resume-list">
               <li>
-                Builds, updates and maintains websites for numerous
-                industry-leading automotive businesses including Mobil 1 and GM
+                Builds, updates, and maintains websites for local businesses and numerous industry-leading
+                automotive businesses including Mobil 1 and General Motors
               </li>
               <li>
-                Provides Creative and Account teams with recommendations for
-                website updates and implements updates using HTML, CSS,
-                JavaScript and PHP
+                Interacts with Account and Creative team members to discuss and prioritize website
+                projects to satisfy client requests, then implements website and content updates via
+                WordPress utilizing HTML, CSS and JavaScript
               </li>
               <li>
-                Utilizes PHP, REST and JavaScript to interact with MailChimp API
-                in order efficiently capture consumer information in a prospect
-                list for client usage
-              </li>
-              <li>
-                Works on updating Shopify shops for clients in a variety of
-                industries
+                Creates and maintains 5 Shopify websites for local and national clients creating a minimum
+                of 10 pages per site and a catalog of 20 or more products for each site 
               </li>
             </ul>
           </Cell>

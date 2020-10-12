@@ -18,19 +18,19 @@ class App extends Component {
 			<Layout>
 				<Header className="header-color" title="Tim Moss" scroll>
 					<Navigation>
-						<NavLink exact to="/" activeClassName="selected">
+						<NavLink className="nav-item" exact to="/" activeClassName="selected">
 						Home
 						</NavLink>
-						<NavLink to="/resume" activeClassName="selected">
+						<NavLink className="nav-item" to="/resume" activeClassName="selected">
 						Resume
 						</NavLink>
-						<NavLink to="/about" activeClassName="selected">
+						<NavLink className="nav-item" to="/about" activeClassName="selected">
 						About
 						</NavLink>
-						<NavLink to="/projects" activeClassName="selected">
+						<NavLink className="nav-item" to="/projects" activeClassName="selected">
 						Projects
 						</NavLink>
-						<NavLink to="/contact" activeClassName="selected">
+						<NavLink className="nav-item" to="/contact" activeClassName="selected">
 						Contact
 						</NavLink>
 					</Navigation>
